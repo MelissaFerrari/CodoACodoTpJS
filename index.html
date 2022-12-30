@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="mystyle.css">
+
+</head>
+<body>
+    
+  <nav class="navbar navbar-expand-sm bg-secondary navbar-dark">
+    <div class="container-fluir">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Conf Bs As</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">La Conferencia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Los oradores</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">El lugar y la fecha</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Conviértete en orador</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Comprar tickets</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <br>
+
+
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">Estudiante<small class="text-muted fw-light"></small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>tienen un descuento</li>
+                <li>80%</li>
+                <li>*presentar documentación</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">Trainee<small class="text-muted fw-light"></small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>tienen un descuento </li>
+                <li>50%</li>
+                <li>*presentar documentación</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">Junior<small class="text-muted fw-light"></small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>tienen un descuento</li>
+                <li>15%</li>
+                <li>*presentar documentación</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- centrar-->
+      <div class="formulario">
+      <p class="venta">VENTA</p>
+      <h4 class="venta">VALOR DE TICKET $200</h4>
+   
+      <div>
+      <form action="/action_page.php">
+        <input type="text" id="fname" name="fname" value="Nombre">
+        <input type="text" id="lname" name="lname" value="Apellido"><br><br>
+        <input type="text" id="comment" name="comment" value="Correo"><br><br>
+         <!-- <input type="submit" value="Enviar"> -->
+      </form>
+      </div>
+
+      <div class="container">
+        <form action="/action_page.php"></form>
+        <br><p>Cantidad</p>
+        <input type="text" id="cantidad" name="fname" value="Cantidad">
+      </form> 
+      </div>
+
+      <div class="container">
+        <form action="/action_page.php"></form>
+        <br><p>Categoria</p>
+        <select id="mySelect" name="categorias">
+          <option>Estudiante</option>
+          <option>Trainee</option>
+          <option>Junior</option>
+        </select>
+      </form>
+    </div>
+
+      </div><br>
+
+      <p id="demo">total a pagar: $ </p>
+    
+      <!-- Botones -->
+
+      <div class="container mt-3">
+        <div class="d-grid gap-3">
+          <button onclick="borrar()" type="button" class="btn btn-primary btn-block">Borrar</button>
+          <button onclick="myFunction()" type="button" class="btn btn-primary btn-block">Resumen</button>
+        </div>
+      </div>
+
+
+<!--PARTE DE FOOTER-->
+
+<br><nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="container-fluid">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link preguntas" href="#">Preguntas Frecuentes</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link contacto" href="#">Contáctanos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Prensa</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Conferencias</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Términos y Condiciones</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Privacidad</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Estudiantes</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+    <script src="myscript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" ></script>
+</body>
+</html>

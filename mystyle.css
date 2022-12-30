@@ -1,0 +1,42 @@
+/*menu*/
+.bg-secondary {
+    justify-content: end;
+}
+
+
+/*venta y valor de ticket div*/
+.formulario{
+    display: grid;
+    justify-content: center;
+}
+
+.venta{
+    text-align: center;
+}
+
+/*long form correo*/
+#comment{
+    width: 100%;
+}
+
+/*cantidad & categoria*/
+.container{
+    display: contents;
+}
+
+
+
+/*button si no los pone en linea centrados borrar*/
+.d-grid {
+    display: flex;
+    justify-content: center;
+}
+
+/*footer*/
+.navbar>.container-fluid{
+    justify-content: center;
+}
+.nav-link{
+    color: #f8f9fa;
+}
+
